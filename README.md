@@ -13,14 +13,6 @@ package.
 pip install -U ddeutil-observe-streamlit
 ```
 
-## Deploy
-
-Start deploy this app on local:
-
-```shell
-python -m streamlit run .\src\ddeutil\observe_streamlit\app.py
-```
-
 ## :speech_balloon: Contribute
 
 I do not think this project will go around the world because it has specific propose,
