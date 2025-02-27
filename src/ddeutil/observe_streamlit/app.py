@@ -35,10 +35,10 @@ settings = st.Page(
     "./settings.py", title="Settings", icon=":material/settings:"
 )
 
-pg = st.navigation(
-    [
-        st.Page("./pages/logs.py", title="Logs"),
-        st.Page("./pages/workflows.py", title="Workflows"),
-    ],
-)
-pg.run()
+
+if __name__ == "__main__":
+    st.set_page_config(page_title="Lets observe", page_icon="💻")
+    st.markdown(
+        "[![Observe Logo](app/static/img/logo.png)](http://localhost:8501)"
+    )
+    st.title("Lets observe with a Website")
