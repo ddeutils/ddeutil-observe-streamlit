@@ -44,8 +44,12 @@ version = {attr = "ddeutil.observe_streamlit.__about__.__version__"}
 where = ["src"]
 
 [tool.shelf.version]
-version = "./src/ddeutil/observe_streamlit/__about__.py"
+version = "./src/ddeutil/observe/__about__.py"
 changelog = "CHANGELOG.md"
+commit_msg_format = "- {subject}"
+
+[tool.shelf.git]
+commit_prefix_force_fix = true
 
 [tool.coverage.run]
 branch = true
